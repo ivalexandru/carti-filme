@@ -9,7 +9,7 @@ let carti_incepute = {
 
 let seriale_incepute = {
 
-    andy_weir2025: "nume serial S1"
+    2022: "andor S1"
 
 }
 
