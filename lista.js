@@ -20,7 +20,14 @@ let seriale_incepute = {
 
 let carti = {
     zece: {
-        frank_herbert: "dune", 
+        frank_herbert: {
+            Dune: "",
+            Dune_Messiah: "",
+            Children_of_Dune: "",
+            God_Emperor_of_Dune: "", 
+            Heretics_of_Dune: "", 
+            Chapterhouse_Dune: "",
+        },
     },
 
     noua: {
@@ -52,7 +59,9 @@ let carti = {
 
 let filme = {
     zece: {
-        dune: 1995,
+        anul: {
+            nume_film: "ceva relevant?",
+        }
     },
 
     noua: {
@@ -61,19 +70,32 @@ let filme = {
     },
 
     opt: {
-        xx: 2024, 
+        2016: {
+        the_accountant: "",
+            
+        },
 
 
     },
 
     sapte: {
-        xx: 2025, 
+
+        2025: {
+            the_accountant_2: "",
+        },
+        
 
 
     },
 
     sub_sapte: {
-        xx: 2024, 
+        la_limita: {
+            
+        },
+
+        oribile: {
+            
+        },
 
         
     },
