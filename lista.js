@@ -9,7 +9,8 @@ let carti_incepute = {
 
 let seriale_incepute = {
 
-    2022: "andor S1"
+    2022: "andor S2",
+    2024: "the bear S1",
 
 }
 
@@ -90,8 +91,8 @@ let seriale = {
 
     },
 
-    opt: {
-        xx: 2024, 
+    opt: { 
+        2022: "andor S2",
 
 
     },
