@@ -1,7 +1,7 @@
 let carti_incepute = {
 
     andy_weir: "project hail mary",
-    andy_weir: "project hail mary",
+    stephen_king: "holly",
 
 
 }
@@ -9,7 +9,6 @@ let carti_incepute = {
 
 let seriale_incepute = {
 
-    2022: "andor S2",
     2024: "the bear S1",
 
 }
@@ -82,6 +81,7 @@ let filme = {
 
         2025: {
             the_accountant_2: "",
+            the_burial: "",
         },
         
 
@@ -114,7 +114,8 @@ let seriale = {
     },
 
     opt: { 
-        2022: "andor S2",
+        2022: "andor S1-2",
+                
 
 
     },
