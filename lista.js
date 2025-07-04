@@ -7,6 +7,13 @@ let carti_incepute = {
 }
 
 
+let carti_neincepute = {
+    taylor_jenkins_reid: "Atmosfera",
+    stephen_king: "sa nu clipesti",
+    
+}
+
+
 let seriale_incepute = {
 
     2024: "the bear S1",
