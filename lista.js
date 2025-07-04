@@ -2,6 +2,7 @@ let carti_incepute = {
 
     andy_weir: "project hail mary",
     stephen_king: "holly",
+    Barbara_Oakley: "A Mind for Numbers,
 
 
 }
