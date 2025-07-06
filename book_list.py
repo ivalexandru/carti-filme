@@ -4,10 +4,10 @@ import sqlite3
 # fisiere de forma ceva.sql (vezi fisier ceva.sql)
 # daca ai in script 'COMMIT' la final, nu mai e nevoie sa pui commit in py!?
 
-conn = sqlite3.connect("books_db.db")
+conn = sqlite3.connect("books.db")
 cur = conn.cursor()
 
-# load script
+# link sql file / script
 with open("/Users/alexiv/Documents/code_2025/python_all/python_filme_carti/books.sql") as file:
     sql_script = file.read()
 
@@ -18,7 +18,7 @@ cur.executescript(sql_script)
 
 
 # display data
-member_data = cur.execute("SELECT * FROM books_db ORDER BY book_name")
+member_data = cur.execute("SELECT * FROM books ORDER BY book_name")
 for row in member_data:
     print(row)
 # member_data si cur sunt acelasi obj (same mem aadr)
