@@ -8,8 +8,11 @@
 --     lists TEXT
 -- );
 
-INSERT INTO books (name, rating, author, genre)
-VALUES
+
+
+
+-- INSERT INTO books (name, rating, author, genre)
+-- VALUES
 -- ("Dune", 10, "Frank Herbert", "SF" ),
 -- ("Foundation", 9.6, "Isaac Asimov", "SF"),
 -- ("2001: A Space Odyssey", 9.7, "Arthur C. Clarke", "SF"),
@@ -28,6 +31,13 @@ VALUES
 -- INSERT INTO unfinished_books (name, rating, author, comment)
 -- VALUES
 -- ("The Bastard of Istanbul", 4, "Elif Shafak", 'not for me');
+
+
+
+-- modify a certain field
+-- UPDATE unfinished_books SET rating = 3 WHERE name = 'The Bastard of Istanbul';
+
+
 
 
 -- display
